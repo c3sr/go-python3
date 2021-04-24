@@ -234,6 +234,7 @@ func TestGetModuleDict(t *testing.T) {
 
 }
 
+/*
 func TestGetModule(t *testing.T) {
 	Py_Initialize()
 
@@ -247,6 +248,7 @@ func TestGetModule(t *testing.T) {
 	new := PyImport_GetModule(name)
 	assert.Equal(t, new, os)
 }
+*/
 
 func TestGetImporter(t *testing.T) {
 	Py_Initialize()
